@@ -1,4 +1,6 @@
-Injects shellcode into a process.
+Injects shellcode into a process. It uses `ctypes` and the Windows API to start a thread in the target process that runs the supplied shellcode.
+
+Requires Python 3.9+, or any new-ish version of Python 3 if the type hints are removed/replaced.
 
 Run as:
 
